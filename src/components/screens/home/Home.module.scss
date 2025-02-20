@@ -1,0 +1,11 @@
+@use '/src/assets/styles/variables';
+.heading {
+	margin: 38px auto;
+	text-align: center;
+	font-size: 36px;
+	line-height: 1.5;
+	max-width: 285px;
+	@media (max-width: variables.$mobile) {
+		font-size: 26px;
+	}
+}
